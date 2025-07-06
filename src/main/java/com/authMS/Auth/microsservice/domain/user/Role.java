@@ -1,4 +1,4 @@
-package com.authMS.Auth.microsservice.enums;
+package com.authMS.Auth.microsservice.domain.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

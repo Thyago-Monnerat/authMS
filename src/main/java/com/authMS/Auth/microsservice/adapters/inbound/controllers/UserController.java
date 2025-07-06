@@ -1,9 +1,9 @@
-package com.authMS.Auth.microsservice.controllers;
+package com.authMS.Auth.microsservice.adapters.inbound.controllers;
 
-import com.authMS.Auth.microsservice.dtos.ChangePasswordDto;
-import com.authMS.Auth.microsservice.dtos.UserLoginDto;
-import com.authMS.Auth.microsservice.dtos.UserRegisterDto;
-import com.authMS.Auth.microsservice.services.UserService;
+import com.authMS.Auth.microsservice.application.useCases.IUserUseCases;
+import com.authMS.Auth.microsservice.application.dtos.ChangePasswordDto;
+import com.authMS.Auth.microsservice.application.dtos.UserLoginDto;
+import com.authMS.Auth.microsservice.application.dtos.UserRegisterDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 public class UserController {
 
-    private final UserService userService;
+    private final IUserUseCases userService;
 
     @PostMapping("login")
     public ResponseEntity<String> login(@RequestBody UserLoginDto userLoginDto) {
-        return ResponseEntity.ok().body(userService.getLoginToken(userLoginDto));
+        return ResponseEntity.ok().body(userService.getToken(userLoginDto));
     }
 
     @PatchMapping("new-password")

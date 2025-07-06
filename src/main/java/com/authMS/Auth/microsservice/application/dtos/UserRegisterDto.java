@@ -1,6 +1,6 @@
-package com.authMS.Auth.microsservice.dtos;
+package com.authMS.Auth.microsservice.application.dtos;
 
-import com.authMS.Auth.microsservice.enums.Role;
+import com.authMS.Auth.microsservice.domain.user.Role;
 import lombok.Data;
 
 @Data

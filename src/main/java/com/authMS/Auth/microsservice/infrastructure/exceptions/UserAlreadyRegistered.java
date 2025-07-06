@@ -1,4 +1,4 @@
-package com.authMS.Auth.microsservice.exceptions;
+package com.authMS.Auth.microsservice.infrastructure.exceptions;
 
 public class UserAlreadyRegistered extends RuntimeException {
     public UserAlreadyRegistered(String message) {
