@@ -1,6 +1,6 @@
-package com.authMS.Auth.microsservice.configs;
+package com.authMS.Auth.microsservice.infrastructure.configs;
 
-import com.authMS.Auth.microsservice.dtos.UserLogDto;
+import com.authMS.Auth.microsservice.application.dtos.UserLogDto;
 
 
 import org.apache.kafka.clients.producer.ProducerConfig;

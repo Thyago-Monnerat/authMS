@@ -1,4 +1,4 @@
-package com.authMS.Auth.microsservice.exceptions;
+package com.authMS.Auth.microsservice.infrastructure.exceptions;
 
 public class JwtException extends RuntimeException{
     public JwtException(String message){
