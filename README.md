@@ -10,7 +10,7 @@
 
 ---
 
-## Projeto utilizando JWT para autenticação, Kafka para logs e Zipkin para observabilidade. Completamente desacoplado, e podendo servir até mesmo para outros projetos como um autenticador RBAC!
+### Projeto utilizando JWT para autenticação, Kafka para logs e Zipkin para observabilidade. Completamente desacoplado utilizando portas e adaptadores, seguindo a **Arquitetura Hexagonal**, e podendo servir até mesmo para outros projetos como um autenticador RBAC!
 
 ## Documentação
 
