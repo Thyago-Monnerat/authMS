@@ -1,8 +1,8 @@
-package com.authMS.Auth.microsservice.exceptionsHandler;
+package com.authMS.Auth.microsservice.infrastructure.exceptionsHandler;
 
-import com.authMS.Auth.microsservice.exceptions.JwtException;
-import com.authMS.Auth.microsservice.exceptions.UserAlreadyRegistered;
-import com.authMS.Auth.microsservice.exceptions.UserNotFound;
+import com.authMS.Auth.microsservice.infrastructure.exceptions.JwtException;
+import com.authMS.Auth.microsservice.infrastructure.exceptions.UserAlreadyRegistered;
+import com.authMS.Auth.microsservice.infrastructure.exceptions.UserNotFound;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 
 @ControllerAdvice
 @RequiredArgsConstructor
-public class GlobalExceptionHandler {
+public class GlobalExceptionsHandler {
 
     @ExceptionHandler(UserNotFound.class)
     public ResponseEntity<String> handlerUserNotFound(UserNotFound e) {

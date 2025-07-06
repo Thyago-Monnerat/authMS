@@ -1,4 +1,4 @@
-package com.authMS.Auth.microsservice.dtos;
+package com.authMS.Auth.microsservice.application.dtos;
 
 import java.time.LocalDateTime;
 
