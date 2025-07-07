@@ -1,11 +1,11 @@
 # Microsserviço de autenticação com Spring + JWT + Zpikin + Kafka
 
 <p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kafka-0f0f0f?style=for-the-badge&logo=apachekafka&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img alt="Java badge" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
+  <img alt="Spring badge" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+  <img alt="JWT badge" src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white"/>
+  <img alt="Kafka badge" src="https://img.shields.io/badge/Kafka-0f0f0f?style=for-the-badge&logo=apachekafka&logoColor=white"/>
+  <img alt="Docker badge" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 </p>
 
 ---
@@ -44,7 +44,7 @@ Sendo login e register utilizando do método POST, do protocolo HTTP, e new-pass
 
 Register:
 
-<p style="display:flex; align-items:center;gap:10px;"><img src="https://img.shields.io/badge/POST-yellow?style=for-the-badge"> Register:</p>
+<p style="display:flex; align-items:center;gap:10px;"><img alt="POST badge" src="https://img.shields.io/badge/POST-yellow?style=for-the-badge"> Register:</p>
 
 ```
 {
@@ -59,7 +59,7 @@ Retornando um 201 com a mensagem: _username_ registered successfully.
 
 ---
 
-<p style="display:flex; align-items:center;gap:10px;"><img src="https://img.shields.io/badge/POST-yellow?style=for-the-badge"> Login:</p>
+<p style="display:flex; align-items:center;gap:10px;"><img alt="POST badge" src="https://img.shields.io/badge/POST-yellow?style=for-the-badge"> Login:</p>
 
 ```
 {
@@ -72,7 +72,7 @@ Retornando um 200 com o jwt como resposta.
 
 ---
 
-<p style="display:flex; align-items:center;gap:10px;"><img src="https://img.shields.io/badge/PATCH-purple?style=for-the-badge
+<p style="display:flex; align-items:center;gap:10px;"><img alt="PATCH badge" src="https://img.shields.io/badge/PATCH-purple?style=for-the-badge
 "> Change password:</p>
 
 ```
